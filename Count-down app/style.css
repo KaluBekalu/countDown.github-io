@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+.error{
+  color: white;
+  background-color: red;
+  width: 50%;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.title-div {
+  font-size: 2rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.title{
+  border-radius: 100px;
+}
+
+.container {
+  min-height: 95vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: 10px 10px 100px black;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+}
+
+.up {
+  margin-top: 2rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  border-radius: 10px;
+  padding-bottom: 2rem;
+  box-shadow:5px 5px 50px #6096e94f;
+  min-width: 80%;
+  z-index: 5;
+  text-align: center;
+}
+.events {
+  z-index: 3;
+  margin-top: 1rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  min-width: 50%;
+  text-align: center;
+}
+
+.time_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cont {
+  text-align: center;
+  font-weight: 200;
+}
+.TimeDay,
+.TimeHour,
+.TimeMinute,
+.TimeSecond {
+  font-size: 3rem;
+}
+
+.image {
+  border-radius: 4px;
+  padding: 5px;
+  width: 40%;
+  margin-top: 5rem;
+}
+
+.copyright,
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.title-div:hover > *[contenteditable="true"] {
+  background-color: #6096e94f;
+  cursor:text;
+}
+
+.copyright{
+  margin-top: auto;
+  font-size: 150%;
+  margin-bottom: 2rem;
+}

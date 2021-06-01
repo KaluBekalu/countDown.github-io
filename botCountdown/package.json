@@ -1,0 +1,23 @@
+{
+  "name": "botcountdown",
+  "version": "1.0.0",
+  "description": "Telegram bot api for gc countdown app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaluBekalu/countDown.github-io.git"
+  },
+  "author": "KaluBekalu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaluBekalu/countDown.github-io/issues"
+  },
+  "homepage": "https://github.com/KaluBekalu/countDown.github-io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "telegraf": "^3.38.0"
+  }
+}
